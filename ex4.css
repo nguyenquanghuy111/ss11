@@ -1,0 +1,137 @@
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.hang1 {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.hang1 .cot1 {
+    width: 48%;
+    height: 40px;
+    flex-grow: 1;
+    background-color: chocolate;
+}
+.hang2 {
+    width: 100%;
+    height: 100px;
+    background-color: yellow;
+}
+.hang3 {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+}
+.hang3 .cot3 {
+    width: 32%;
+    height: 100px;
+    flex-grow: 1;
+    background-color: blue ;
+}
+.hang4 {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+}
+.hang4 .cot4 {
+    width: 50px;
+    height: 80px;
+    flex-grow: 1;
+    background-color: rgb(0, 255, 200) ;
+}
+ @media screen and (min-width:1200px)  {
+    .hang1 {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+    .hang1 .cot1 {
+        width: 33%;
+        height: 30px;
+        flex-grow: 1;
+        background-color: chocolate;
+    }
+}
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:768px) and (max-width:1200px)  {
+    .hang1 {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .hang1 .cot1 {
+            width: 100%;
+            height: 30px;
+            flex-grow: 1;
+            background-color: chocolate;
+        }
+        .hang2{
+            height: 70px;
+        }
+      .hang3 {
+        display: flex;
+        flex-direction: column;
+      }
+      .hang3 .cot3 {
+        width: 100%;
+        height: 50px ;
+      }
+      .hang4{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
+      .hang4 .cot4 {
+        width: 48%;
+        height: 100px;
+      }
+}
+
+@media screen and (max-width:768px) {
+    .hang1 {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .hang1 .cot1 {
+        width: 100%;
+        height: 40px;
+        flex-grow: 1;
+        background-color: chocolate;
+    }
+    .hang2{
+        
+        height: 40px;
+    }
+    .hang3 {
+        display: flex;
+        flex-direction: column;
+      }
+      .hang3 .cot3 {
+        width: 100%;
+        height: 70px ;
+      }
+      .hang4{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+      }
+      .hang4 .cot4 {
+        width: 100%;
+        height: 30px;
+      }
+}
+
+

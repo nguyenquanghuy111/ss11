@@ -1,0 +1,107 @@
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.cot2 {
+  display: flex;
+  flex-direction: row ;
+  gap: 20px;
+}
+.cot3 {
+  display: flex;
+  flex-direction: row ;
+}
+.mauxanh {
+  height: 50px;
+  background-color: hsl(181.71deg 35% 60.78%);
+}
+.cot2 .maucam {
+  width: 50%;
+  height: 150px;
+background-color: hsl(6.71deg 80.1% 60.59%);
+display: flex;
+
+}
+
+.cot2 .mauvang {
+  width: 50%;
+  height: 150px;
+  background-color: hsl(38.48deg 92% 60.78%);
+
+}
+.cot3{
+  display: flex;
+  flex-direction: row ;
+  gap: 20px;
+}
+.cot3 .mauxam {
+  width: 50%;
+  height: 150px;
+  background-color: hsl(208.52deg 32.62% 36.67%);
+}
+.cot3 .maucam {
+  width: 50%;
+  height: 150px;
+  background-color: hsl(6.71deg 80.1% 60.59%);
+}
+.cot3 .mauvang {
+  width: 50%;
+  height: 150px;
+  background-color: hsl(38.48deg 92% 60.78%);
+}
+
+@media screen and (max-width:1024px) {
+  .cot2 {
+      display: flex;
+      flex-direction: column ;
+      gap: 20px;
+  }
+  .cot2 .maucam {
+      width: 100%;
+      height: 150px;
+  background-color: hsl(6.71deg 80.1% 60.59%);
+  display: flex;
+  
+  }
+  .cot2 .maucam {
+      width: 100%;
+      height: 150px;
+  background-color: hsl(6.71deg 80.1% 60.59%);
+  display: flex;
+  
+  }
+  .cot2 .mauvang {
+      width: 100%;
+      height: 150px;
+  background-color:  hsl(38.48deg 92% 60.78%);
+  display: flex;
+  
+  }
+  .cot3 {
+      display: flex;
+      flex-direction: column ;
+      gap: 20px;
+  }
+  .cot3 .mauxam {
+      width: 100%;
+      height: 150px;
+  background-color:  hsl(208.52deg 32.62% 36.67%) ;
+  display: flex;
+  
+  }
+  .cot3 .maucam {
+      width: 100%;
+      height: 150px;
+  background-color: hsl(6.71deg 80.1% 60.59%);
+  display: flex;
+  
+  }
+  .cot3 .mauvang {
+      width: 100%;
+      height: 150px;
+  background-color:  hsl(38.48deg 92% 60.78%);
+  display: flex;
+  
+  }
+}

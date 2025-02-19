@@ -1,0 +1,78 @@
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.mauhong1 {
+    width: 100%;
+    height: 80px;
+    background-color: pink;
+}
+.hang2 {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.hang2 .hong2 {
+    width: 25%;
+    height: 120px;
+    background-color: rgb(121, 35, 49);
+}
+.hang3 {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.hang3 .hong3 {
+    width: 50%;
+    height: 100px;
+    background-color: rgb(195, 31, 58);
+}
+@media screen and ( max-width:1024px) {
+    .hang2 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .hang2 .hong2 {
+        width: 45%;
+        height: 120px;
+        flex-grow: 1;
+        background-color: rgb(121, 35, 49);
+    }
+    .hang3 {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .hang3 .hong3 {
+        width: 100%;
+        height: 100px;
+        background-color: rgb(195, 31, 58);
+    }
+}
+@media screen and (max-width:420px) {
+    .hang2 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .hang2 .hong2 {
+        width: 100%;
+        height: 120px;
+        flex-grow: 1;
+        background-color: rgb(121, 35, 49);
+    }
+    .hang3 {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .hang3 .hong3 {
+        width: 100%;
+        height: 100px;
+        background-color: rgb(195, 31, 58);
+    }
+}
